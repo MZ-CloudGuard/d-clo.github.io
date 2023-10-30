@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: 개요
 nav_order: 1
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
 permalink: /
@@ -12,8 +12,8 @@ permalink: /
 클라우드 설정 미흡으로 인한 데이터 유출 사고가 점점 증가하고 있습니다. 이에 D-CLO는 300개의 탐지 룰셋을 통해 클라우드 설정에 대한 취약점을 점검하고 점검 결과를 모니터링하여 클라우드 설정 미흡으로 인한 피해를 사전에 방지할 수 있는 솔루션입니다.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+<!-- [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 } -->
 
 ---
 
@@ -48,6 +48,8 @@ D-CLO 호환 브라우저는 아래의 표와 같습니다. 모든 브라우저�
 
 ※ 이 가이드에선 구글(Google) 크롬(Chrome)을 기준으로 설명합니다.
 
+
+<!-- 
 {: .warning }
 > This website documents the features of the current `main` branch of the Just the Docs theme. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
 
@@ -128,4 +130,4 @@ Just the Docs is committed to fostering a welcoming community.
 [Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [customize]: {% link docs/customization.md %}
-[use the template]: https://github.com/just-the-docs/just-the-docs-template/generate
+[use the template]: https://github.com/just-the-docs/just-the-docs-template/generate -->
