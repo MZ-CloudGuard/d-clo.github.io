@@ -1,6 +1,6 @@
 title: D-CLO
 description: D-CLO V3 의 메뉴얼
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://docs.d-clo.com" # the base hostname & protocol for your site, e.g. http://example.com
 repository: J03lPark/d-clo.github.io # for github-metadata
 
