@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Home(Dashboard)
+title: Dashboard
 nav_order: 3
+permalink: docs/Home
 ---
 
 # 홈 화면(대시보드)
