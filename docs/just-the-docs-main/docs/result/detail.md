@@ -65,7 +65,3 @@ parent: 진단 결과
 | 상세정보 |
 |:---------------|
 | <center><img src="../../../img/result/detail_9.png" width="700" height="300" style="border: 1px solid black;"/></center> |
-
-| 상세정보 |
-|:---------------|
-| <center><img src="../../../img/result/detail_9.png" width="700" height="300" style="border: 1px solid black;"/></center> |
