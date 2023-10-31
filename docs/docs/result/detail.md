@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 상세 진단 결과
+nav_order: 14
 parent: 진단 결과
 ---
 

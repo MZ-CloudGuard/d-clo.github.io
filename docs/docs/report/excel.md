@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 엑셀 보고서
+nav_order: 19
 parent: 리포팅
 ---
 

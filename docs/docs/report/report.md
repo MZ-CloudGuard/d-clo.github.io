@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 리포팅
-nav_order: 4
+nav_order: 18
 has_children: true
 permalink: docs/report
 ---

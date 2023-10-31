@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 자산 관리
-nav_order: 4
+nav_order: 16
 has_children: true
 permalink: docs/resource
 ---

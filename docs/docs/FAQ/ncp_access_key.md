@@ -1,6 +1,7 @@
 ---
 layout: default
 title: NCP
+nav_order: 25
 parent: 자주하는 질문(FAQ)
 ---
 

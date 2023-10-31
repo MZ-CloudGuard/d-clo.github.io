@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 워드 보고서
+nav_order: 20
 parent: 리포팅
 ---
 

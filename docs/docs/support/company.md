@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 제조사
+nav_order: 20
 parent: 고객 지원
 ---
 
