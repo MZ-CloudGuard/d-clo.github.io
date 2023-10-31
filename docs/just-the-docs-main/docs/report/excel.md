@@ -12,4 +12,12 @@ parent: 리포팅
 ※ 표지, 재개정이력, 개요, 자산 목록, 진단결과 요약, 진단 항목, 진단 결과 상세(서비스별) 등
 
 <br />
+**[엑셀보고서 예시]**
 
+| 진단결과 요약 시트 |
+|:---------------|
+| <center><img src="../../../img/report/excel_1.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+
+| 진단결과 상세 시트 |
+|:---------------|
+| <center><img src="../../../img/report/excel_2.png" width="700" height="300" style="border: 1px solid black;"/></center> |
