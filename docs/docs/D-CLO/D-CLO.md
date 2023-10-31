@@ -2,6 +2,7 @@
 layout: default
 title: D-CLO
 nav_order: 2
+permalink: docs/D-CLO
 ---
 
 # D-CLO
