@@ -6,7 +6,6 @@ parent: 고객 지원
 ---
 
 # 린아레나
-<div class="code-example" markdown="1">
 
 | T | 070-5055-5564  |
 | Fax   | 02-6455-1987  |
