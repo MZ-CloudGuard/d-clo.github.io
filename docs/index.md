@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 개요
+title: D-CLO
 nav_order: 1
 ---
 
@@ -9,9 +9,6 @@ nav_order: 1
 
 클라우드 설정 미흡으로 인한 데이터 유출 사고가 점점 증가하고 있습니다. 이에 D-CLO는 300개의 탐지 룰셋을 통해 클라우드 설정에 대한 취약점을 점검하고 점검 결과를 모니터링하여 클라우드 설정 미흡으로 인한 피해를 사전에 방지할 수 있는 솔루션입니다.
 {: .fs-6 .fw-300 }
-
-<!-- [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 } -->
 
 ---
 
