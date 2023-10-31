@@ -13,12 +13,12 @@ D-CLO를 사용하기 위해서는 D-CLO Web 사이트에 접속하여 로그인
 ---
 1)	웹 브라우저(Chrome)를 실행합니다.
 
-2)	전달 받은 URL(https://d-clo.com)과 계정 정보와 OTP를 입력하고 하단의 Enter을 클릭하여 D-CLO에 로그인합니다.
+2)	전달 받은 [URL](https://d-clo.com)과 계정 정보와 OTP를 입력하고 하단의 Enter을 클릭하여 D-CLO에 로그인합니다.
 
 
 <center>
     <img
-        src="/docs/assets/images/D-CLo_login.png"
+        src="../../assets/images/D-CLo_login.png"
         width="1600"
         height="900"
         style="border: 2px solid black;"
