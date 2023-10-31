@@ -18,7 +18,7 @@ D-CLO를 사용하기 위해서는 D-CLO Web 사이트에 접속하여 로그인
 
 <center>
     <img
-        src="../../assets/images/D-CLo_login.png"
+        src="../../../assets/images/D-CLo_login.png"
         width="1600"
         height="900"
         style="border: 2px solid black;"
