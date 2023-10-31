@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Home(Dashboard)
+title: Dashboard
 nav_order: 3
+permalink: docs/Home
 ---
 
 # 홈 화면(대시보드)
@@ -13,7 +14,7 @@ nav_order: 3
 
 <center>
     <img
-        src="/docs/assets/images/dashboard.png"
+        src="../../../assets/images/dashboard.png"
         width="1600"
         height="900"
         style="border: 2px solid black;"
@@ -23,7 +24,7 @@ nav_order: 3
 <br>
 <center>
     <img
-        src="/docs/assets/images/noresult_dashboard.png"
+        src="../../../assets/images/noresult_dashboard.png"
         width="1600"
         height="900"
         style="border: 2px solid black;"
@@ -38,7 +39,7 @@ nav_order: 3
 
 <center>
     <img
-        src="/docs/assets/images/dashboard.png"
+        src="../../../assets/images/dashboard.png"
         width="1600"
         height="900"
         style="border: 2px solid black;"
@@ -55,7 +56,7 @@ nav_order: 3
 <span style="color: blue;">1)	취약/양호별 개수 및 비율 & 보안점수 총점 & 컴플라이언스 보안 현황</span>
 <center>
     <img
-        src="/docs/assets/images/dashboard_1.png"
+        src="../../../assets/images/dashboard_1.png"
         width="1600"
         height="900"
         style="border: 2px solid black;"
@@ -69,7 +70,7 @@ nav_order: 3
 <span style="color: blue;">2)	최근 진단 보고서</span>
 <center>
     <img
-        src="/docs/assets/images/최근 진단 보고서.png"
+        src="../../../assets/images/최근 진단 보고서.png"
         width="1600"
         height="900"
         style="border: 2px solid black;"
@@ -83,7 +84,7 @@ nav_order: 3
 <span style="color: blue;">3)	취약점 발생 추이</span>
 <center>
     <img
-        src="/docs/assets/images/취약점 발생 추이.png"
+        src="../../../assets/images/취약점 발생 추이.png"
         width="1600"
         height="900"
         style="border: 2px solid black;"
@@ -97,7 +98,7 @@ nav_order: 3
 <span style="color: blue;">4)	진단 후 30일 이상 경과한 키 & 보안점수 60점 미만의 취약한 키 & 미진단 키 리스트</span>
 <center>
     <img
-        src="/docs/assets/images/30일 경과 키 60점 미만 키 미진단 키.png"
+        src="../../../assets/images/30일 경과 키 60점 미만 키 미진단 키.png"
         width="1600"
         height="900"
         style="border: 2px solid black;"
