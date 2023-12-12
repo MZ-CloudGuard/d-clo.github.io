@@ -101,6 +101,29 @@ function initSearch() {
 
       lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[\s\-/]+/" }}
 
+      // var index = new lunr.Index;
+      // index.ref('id');
+      // index.field()
+      // index.ref('id');
+      // index.field('title', { boost: 200 });
+      // index.field('content', { boost: 2 });
+      // {%- if site.search.rel_url != false %}
+      // index.field('relUrl');
+      // {%- endif %}
+      // index.metadataWhitelist = ['position'];
+
+      // for (var i in docs) {
+      //   {% include lunr/custom-index.js %}
+      //   index.add({
+      //     id: i,
+      //     title: docs[i].title,
+      //     content: docs[i].content,
+      //     {%- if site.search.rel_url != false %}
+      //     relUrl: docs[i].relUrl
+      //     {%- endif %}
+      //   });
+      // }
+
       var index = lunr(function(){
         this.ref('id');
         this.field('title', { boost: 200 });
