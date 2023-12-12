@@ -20,12 +20,6 @@ jtd.onReady = function(ready) {
       if (document.readyState=='complete') ready();
   });
 }
-// Define the trimmer function for Korean and English
-function trimmerEnKo(token) {
-  return token
-    .replace(/^[^\w가-힣]+/, '')
-    .replace(/[^\w가-힣]+$/, '');
-}
 
 // Show/hide mobile menu
 
@@ -106,6 +100,13 @@ function initSearch() {
       var docs = JSON.parse(request.responseText);
 
       lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[^\w가-힣]+$/" }}
+
+      // Define the trimmer function for Korean and English
+      function trimmerEnKo(token) {
+        return token
+          .replace(/^[^\w가-힣]+/, '')
+          .replace(/[^\w가-힣]+$/, '');
+      }
 
       var index = lunr(function(){
         this.pipeline.reset();
