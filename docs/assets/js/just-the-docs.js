@@ -108,18 +108,18 @@ function initSearch() {
       lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[^\w가-힣]+$/" }}
 
       var index = lunr(function(){
-        this.ref('id');
-        this.field('title', { boost: 200 });
-        this.field('content', { boost: 2 });
-        {%- if site.search.rel_url != false %}
-        this.field('relUrl');
-        {%- endif %}
         this.pipeline.reset();
         this.pipeline.add(
           trimmerEnKo,
           lunr.stopWordFilter,
           lunr.stemmer
         );
+        this.ref('id');
+        this.field('title', { boost: 200 });
+        this.field('content', { boost: 2 });
+        {%- if site.search.rel_url != false %}
+        this.field('relUrl');
+        {%- endif %}
         this.metadataWhitelist = ['position']
 
         for (var i in docs) {
