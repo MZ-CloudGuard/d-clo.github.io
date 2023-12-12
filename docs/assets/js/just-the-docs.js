@@ -99,22 +99,10 @@ function initSearch() {
     if (request.status >= 200 && request.status < 400) {
       var docs = JSON.parse(request.responseText);
 
-      lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[^\w가-힣]+$/" }}
-
-      // Define the trimmer function for Korean and English
-      function trimmerEnKo(token) {
-        return token
-          .replace(/^[^\w가-힣]+/, '')
-          .replace(/[^\w가-힣]+$/, '');
-      }
+      lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[\s\-/]+/" }}
 
       var index = lunr(function(){
-        this.pipeline.reset();
-        this.pipeline.add(
-          trimmerEnKo,
-          lunr.stopWordFilter,
-          lunr.stemmer
-        );
+        this.use(lunr.multiLanguage('en', 'ko')); // 영어 한글 검색
         this.ref('id');
         this.field('title', { boost: 200 });
         this.field('content', { boost: 2 });
