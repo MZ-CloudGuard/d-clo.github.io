@@ -20,6 +20,12 @@ jtd.onReady = function(ready) {
       if (document.readyState=='complete') ready();
   });
 }
+// Define the trimmer function for Korean and English
+function trimmerEnKo(token) {
+  return token
+    .replace(/^[^\w가-힣]+/, '')
+    .replace(/[^\w가-힣]+$/, '');
+}
 
 // Show/hide mobile menu
 
@@ -101,29 +107,6 @@ function initSearch() {
 
       lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[^\w가-힣]+$/" }}
 
-      // var index = new lunr.Index;
-      // index.ref('id');
-      // index.field()
-      // index.ref('id');
-      // index.field('title', { boost: 200 });
-      // index.field('content', { boost: 2 });
-      // {%- if site.search.rel_url != false %}
-      // index.field('relUrl');
-      // {%- endif %}
-      // index.metadataWhitelist = ['position'];
-
-      // for (var i in docs) {
-      //   {% include lunr/custom-index.js %}
-      //   index.add({
-      //     id: i,
-      //     title: docs[i].title,
-      //     content: docs[i].content,
-      //     {%- if site.search.rel_url != false %}
-      //     relUrl: docs[i].relUrl
-      //     {%- endif %}
-      //   });
-      // }
-
       var index = lunr(function(){
         this.ref('id');
         this.field('title', { boost: 200 });
@@ -131,6 +114,12 @@ function initSearch() {
         {%- if site.search.rel_url != false %}
         this.field('relUrl');
         {%- endif %}
+        this.pipeline.reset();
+        this.pipeline.add(
+          trimmerEnKo,
+          lunr.stopWordFilter,
+          lunr.stemmer
+        );
         this.metadataWhitelist = ['position']
 
         for (var i in docs) {
