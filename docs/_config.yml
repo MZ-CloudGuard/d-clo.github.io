@@ -56,7 +56,7 @@ search:
   # Set the search token separator
   # Default: /[\s\-/]+/
   # Example: enable support for hyphenated search words
-  tokenizer_separator: /[\s/]+/
+  tokenizer_separator: /[^\w가-힣]+$/
   # Display the relative url in search results
   # Supports true (deflault) or false
   rel_url: true
