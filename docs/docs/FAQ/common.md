@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 공통
+nav_order: 23
 parent: 자주하는 질문(FAQ)
 ---
 

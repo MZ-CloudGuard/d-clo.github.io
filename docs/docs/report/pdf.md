@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 월간 보고서
+nav_order: 21
 parent: 리포팅
 ---
 

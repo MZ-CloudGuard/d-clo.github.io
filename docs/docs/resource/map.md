@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 리소스 시각화
+nav_order: 17
 parent: 자산 관리
 ---
 
