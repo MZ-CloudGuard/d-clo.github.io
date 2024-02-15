@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 고객 지원
-nav_order: 4
+nav_order: 28
 has_children: true
 permalink: docs/support
 ---

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: AZURE
+nav_order: 27
 parent: 자주하는 질문(FAQ)
 ---
 
