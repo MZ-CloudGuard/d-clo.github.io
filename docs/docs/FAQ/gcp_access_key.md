@@ -72,6 +72,7 @@ D-CLO를 사용하기 위해 추가적으로 더 필요한 권한들은 아래�
 | Google Cloud Storage JSON API | storage-api.googleapis.com |
 | Cloud Storage | storage-component.googleapis.com |
 | Cloud Storage API | storage.googleapis.com |
+| Service Usage API | serviceusage.googleapis.com |
 
 <br />
 
