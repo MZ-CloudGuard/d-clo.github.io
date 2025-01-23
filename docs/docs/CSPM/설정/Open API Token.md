@@ -7,5 +7,5 @@ nav_order: 4
 ---
 
 # Open API Token
-<img src="../../../assets/images/openapitoken1.png"/>
-<img src="../../../assets/images/openapitoken2.png"/>
+<img src="../../../../assets/images/openapitoken1.png"/>
+<img src="../../../../assets/images/openapitoken2.png"/>
