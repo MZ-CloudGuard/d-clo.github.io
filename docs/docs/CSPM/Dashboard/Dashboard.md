@@ -2,7 +2,7 @@
 layout: default
 title: Dashboard
 nav_order: 1
-permalink: docs/Home
+permalink: docs/Dashboard
 parent: "[CSPM]"
 ---
 
