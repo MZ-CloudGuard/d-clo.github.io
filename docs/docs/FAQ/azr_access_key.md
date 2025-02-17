@@ -123,21 +123,20 @@ Azure 진단 시 필요한 구독 ID를 확인 하기 전 해당 구독에 역�
 <br />
 
 <br />
-CSPM 진단 시 필요한 권한
+
+- CSPM 진단 시 필요한 권한
+
 <br />
-<br />
 
-
-
-| API/권한 이름                         | 유형       | 설명                                      | 상태                                            |
-|---------------------------------------|-----------|-------------------------------------------|-------------------------------------------------|
-| AuditLog.Read.All                     | 애플리케이션 | Read all audit log data                   | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
-| Directory.Read.All                    | 애플리케이션 | Read directory data                       | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
-| Policy.Read.All                       | 애플리케이션 | Read your organization's policies         | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
-| User.Read                             | 위임됨       | Sign in and read user profile             | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
-| User.Read.All                         | 위임됨       | Read all users' full profiles             | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
-| User.Read.All                         | 애플리케이션 | Read all users' full profiles             | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
-| UserAuthenticationMethod.Read.All     | 애플리케이션 | Read all users' authentication methods    | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
+| API/권한 이름                         | 유형       | 설명                                      |
+|---------------------------------------|-----------|-------------------------------------------|
+| AuditLog.Read.All                     | 애플리케이션 | Read all audit log data                   |
+| Directory.Read.All                    | 애플리케이션 | Read directory data                       |
+| Policy.Read.All                       | 애플리케이션 | Read your organization's policies         |
+| User.Read                             | 위임됨       | Sign in and read user profile             |
+| User.Read.All                         | 위임됨       | Read all users' full profiles             |
+| User.Read.All                         | 애플리케이션 | Read all users' full profiles             |
+| UserAuthenticationMethod.Read.All     | 애플리케이션 | Read all users' authentication methods    |
 
 
 <br />
