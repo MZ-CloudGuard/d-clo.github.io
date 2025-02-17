@@ -119,8 +119,21 @@ API 사용 권한 요청 창이 표시되면 Microsoft Graph를 클릭합니다.
 
 
 <br />
-Azure 진단 시 필요한 구독 ID를 확인 하기 전 해당 구독에 역할 할당이 필요합니다. <br />
+Azure 진단 시 필요한 구독 ID를 확인 하기 전 해당 구독에 역할 할당이 필요합니다.
 <br />
+
+| API/권한 이름                         | 유형       | 설명                                      | 관리자 동의 필요함 | 상태                                            |
+|---------------------------------------|-----------|-------------------------------------------|------------------|-------------------------------------------------|
+| AuditLog.Read.All                     | 애플리케이션 | Read all audit log data                   | 예               | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
+| Directory.Read.All                    | 애플리케이션 | Read directory data                       | 예               | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
+| Policy.Read.All                       | 애플리케이션 | Read your organization's policies         | 예               | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
+| User.Read                             | 위임됨       | Sign in and read user profile             | 아니요           | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
+| User.Read.All                         | 위임됨       | Read all users' full profiles             | 예               | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
+| User.Read.All                         | 애플리케이션 | Read all users' full profiles             | 예               | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
+| UserAuthenticationMethod.Read.All     | 애플리케이션 | Read all users' authentication methods    | 예               | 주식회사 린아레나(LIN arena Inc.)에 대해 허용됨       |
+
+<br />
+
 
 **[역할 할당]**
 
