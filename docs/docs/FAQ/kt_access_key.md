@@ -32,7 +32,7 @@ Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
 
 | Step1. KT 클라우드 콘솔 내 API Key탭 접속 |
 |:---------------|
-| <center><img src="../../../img/kt_api/kt_api_1.png" width="150" height="300" style="border: 1px solid black;"/></center> |
+| <center><img src="../../../img/kt_api/kt_api_1.png" width="200" height="300" style="border: 1px solid black;"/></center> |
 
 | Step2. 마스킹 해제 후, Default API Key 사용 |
 |:---------------|
@@ -40,7 +40,7 @@ Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
 
 | Step3. Storage탭 선택 |
 |:---------------|
-| <center><img src="../../../img/kt_api/kt_api_3.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+| <center><img src="../../../img/kt_api/kt_api_3.png" width="200" height="300" style="border: 1px solid black;"/></center> |
 
 | Step4. API Key 추가 |
 |:---------------|
