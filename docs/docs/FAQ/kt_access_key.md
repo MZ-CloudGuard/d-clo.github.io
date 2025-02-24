@@ -35,23 +35,23 @@ Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
 또는 [API Key – Storage]탭에서 'API Key 추가' 버튼으로 추가로 생성된 키를 사용 합니다.<br />
 
 <br />
-**[GCP API 사용]**
+**[KT 클라우드 API 사용]**
 
 | Step1. KT 클라우드 콘솔 내 API Key탭 접속 |
 |:---------------|
-| <center><img src="../../../img/kt_api/kt_api_1.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+| <center><img src="../../../img/kt_api/kt_api_1.png" width="200" height="300" style="border: 1px solid black;"/></center> |
 
 | Step2. 마스킹 해제 후, Default API Key 사용 |
 |:---------------|
-| <center><img src="../../../img/gcp_api/kt_api_2.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+| <center><img src="../../../img/kt_api/kt_api_2.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 
 | Step3. Storage탭 선택 |
 |:---------------|
-| <center><img src="../../../img/gcp_api/kt_api_3.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+| <center><img src="../../../img/kt_api/kt_api_3.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 
 | Step4. API Key 추가 |
 |:---------------|
-| <center><img src="../../../img/gcp_api/kt_api_4.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+| <center><img src="../../../img/kt_api/kt_api_4.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 
 <br />
 
