@@ -22,7 +22,7 @@ parent: 자주하는 질문(FAQ)
 D-CLO에서 KT 클라우드 진단 시 API를 사용해서 진단을 하므로 KT 클라우드의 API Key가 필요합니다. <br />
 
 KT 클라우드 콘솔에서 왼쪽 기본 메뉴 중 [API Key – API Key]에 접근합니다. <br />
-Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
+Default API Key의 `API Key`와 `Secret Key`를 사용 합니다. <br />
 '마스킹 해제' 버튼을 눌러 마스킹을 해제한 키값들을 D-CLO에 등록 합니다. <br />
 또는 [API Key – Storage]탭에서 'API Key 추가' 버튼으로 추가로 생성된 키를 사용 합니다.<br />
 
@@ -80,4 +80,4 @@ KT 클라우드의 API 키는 루트의 모든 권한을 포함하고 있습니�
 
 ---
 
-현재(2025-02-24) KT 클라우드에서는 IAM 계정은 API 이용이 불가 합니다. (API 제공 계획 없음)
+현재(2025-02-24) KT 클라우드에서는 IAM 계정으로 API 키 발급이 불가 합니다. (API 제공 계획 없음)
