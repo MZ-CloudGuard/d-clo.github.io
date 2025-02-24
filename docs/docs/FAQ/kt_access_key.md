@@ -19,13 +19,6 @@ parent: 자주하는 질문(FAQ)
 ## KT API key 생성은 어떻게 하나요?
 
 ---
-
-<br />
-
-## KT 진단 시 API 사용 권한이 필요한가요?
-
----
-
 D-CLO에서 GCP 진단 시 API를 사용해서 진단을 하므로 KT 클라우드의 API Key가 필요합니다.
 <br />
 
@@ -39,7 +32,7 @@ Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
 
 | Step1. KT 클라우드 콘솔 내 API Key탭 접속 |
 |:---------------|
-| <center><img src="../../../img/kt_api/kt_api_1.png" width="200" height="300" style="border: 1px solid black;"/></center> |
+| <center><img src="../../../img/kt_api/kt_api_1.png" width="150" height="300" style="border: 1px solid black;"/></center> |
 
 | Step2. 마스킹 해제 후, Default API Key 사용 |
 |:---------------|
@@ -55,6 +48,11 @@ Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
 
 <br />
 
+## KT 진단 시 API 사용 권한이 필요한가요?
+
+KT 클라우드의 API 키는 루트의 모든 권한을 포함하고 있습니다. <br />
+따라서 D-CLO 서비스를 이용하기 위해서 별도의 권한 설정이 필요치 않습니다. <br />
+
 <!-- D-CLO를 사용하기 위해 추가적으로 더 필요한 권한들은 아래의 표와 같습니다. <br />
 표에 있는 API가 전부 정상적으로 활성화되어 있어야 D-CLO 서비스를 정상적으로 이용할 수 있습니다. <br />
 
@@ -66,6 +64,7 @@ Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
 | 클라우드 Key Management Service (KMS) API | 클라우드kms.googleapis.com | -->
 
 <br />
+
 
 ## Root 계정의 API Key 발급 외 다른 방법은 없나요?
 
