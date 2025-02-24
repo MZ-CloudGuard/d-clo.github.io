@@ -50,6 +50,8 @@ Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
 
 ## KT 진단 시 API 사용 권한이 필요한가요?
 
+---
+
 KT 클라우드의 API 키는 루트의 모든 권한을 포함하고 있습니다. <br />
 따라서 D-CLO 서비스를 이용하기 위해서 별도의 권한 설정이 필요치 않습니다. <br />
 
