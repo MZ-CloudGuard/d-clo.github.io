@@ -19,8 +19,7 @@ parent: 자주하는 질문(FAQ)
 ## KT API key 생성은 어떻게 하나요?
 
 ---
-D-CLO에서 GCP 진단 시 API를 사용해서 진단을 하므로 KT 클라우드의 API Key가 필요합니다.
-<br />
+D-CLO에서 KT 클라우드 진단 시 API를 사용해서 진단을 하므로 KT 클라우드의 API Key가 필요합니다. <br />
 
 KT 클라우드 콘솔에서 왼쪽 기본 메뉴 중 [API Key – API Key]에 접근합니다. <br />
 Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
@@ -28,6 +27,7 @@ Default API Key의 `Access Key ID`와 `Secret Key`를 사용 합니다. <br />
 또는 [API Key – Storage]탭에서 'API Key 추가' 버튼으로 추가로 생성된 키를 사용 합니다.<br />
 
 <br />
+
 **[KT 클라우드 API 사용]**
 
 | Step1. KT 클라우드 콘솔 내 API Key탭 접속 |
