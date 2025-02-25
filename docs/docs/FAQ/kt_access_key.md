@@ -61,11 +61,11 @@ Token의 `Project Id`와 `Project Name`, `Password`를 사용 합니다. <br />
 
 **[Platform D API 사용]**
 
-| Step1. KT 클라우드 콘솔 내 API Key탭 접속 |
+| Step1. KT 클라우드 콘솔 내 Token탭 접속 |
 |:---------------|
 | <center><img src="../../../img/kt_api/kt_api_d_1.png" width="200" height="300" style="border: 1px solid black;"/></center> |
 
-| Step2. 마스킹 해제 후, Default API Key 사용 |
+| Step2. Project ID 확인 |
 |:---------------|
 | <center><img src="../../../img/kt_api/kt_api_d_2.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 
