@@ -19,6 +19,9 @@ parent: 자주하는 질문(FAQ)
 ## KT API key 생성은 어떻게 하나요?
 
 ---
+
+### Platform G1,G2
+
 D-CLO에서 KT 클라우드 진단 시 API를 사용해서 진단을 하므로 KT 클라우드의 API Key가 필요합니다. <br />
 
 KT 클라우드 콘솔에서 왼쪽 기본 메뉴 중 [API Key – API Key]에 접근합니다. <br />
@@ -28,7 +31,7 @@ Default API Key의 `API Key`와 `Secret Key`를 사용 합니다. <br />
 
 <br />
 
-**[KT 클라우드 API 사용]**
+**[Platform G1,G2 API 사용]**
 
 | Step1. KT 클라우드 콘솔 내 API Key탭 접속 |
 |:---------------|
@@ -45,6 +48,26 @@ Default API Key의 `API Key`와 `Secret Key`를 사용 합니다. <br />
 | Step4. API Key 추가 |
 |:---------------|
 | <center><img src="../../../img/kt_api/kt_api_4.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+
+<br />
+
+### Platform D
+
+KT 클라우드 콘솔에서 왼쪽 기본 메뉴 중 [Severs – Token]에 접근합니다. <br />
+Token의 `Project Id`와 `Project Name`, `Password`를 사용 합니다. <br />
+'Project ID 확인' 버튼을 눌러 `Project Id`를 확인하고 D-CLO에 등록 합니다. <br />
+
+<br />
+
+**[Platform D API 사용]**
+
+| Step1. KT 클라우드 콘솔 내 API Key탭 접속 |
+|:---------------|
+| <center><img src="../../../img/kt_api/kt_api_d_1.png" width="200" height="300" style="border: 1px solid black;"/></center> |
+
+| Step2. 마스킹 해제 후, Default API Key 사용 |
+|:---------------|
+| <center><img src="../../../img/kt_api/kt_api_d_2.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 
 <br />
 
