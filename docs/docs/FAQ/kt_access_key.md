@@ -20,7 +20,7 @@ parent: 자주하는 질문(FAQ)
 
 ---
 
-### Platform G1,G2
+### **Platform G1,G2**
 
 D-CLO에서 KT 클라우드 진단 시 API를 사용해서 진단을 하므로 KT 클라우드의 API Key가 필요합니다. <br />
 
@@ -51,7 +51,7 @@ Default API Key의 `API Key`와 `Secret Key`를 사용 합니다. <br />
 
 <br />
 
-### Platform D
+### **Platform D**
 
 KT 클라우드 콘솔에서 왼쪽 기본 메뉴 중 [Severs – Token]에 접근합니다. <br />
 Token의 `Project Id`와 `Project Name`, `Password`를 사용 합니다. <br />
