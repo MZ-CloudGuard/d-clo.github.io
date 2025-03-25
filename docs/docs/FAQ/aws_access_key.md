@@ -126,10 +126,12 @@ aws에 접속하여 IAM 서비스로 이동합니다. <br />
 | <center><img src="../../../img/aws_assume/aws_assume_9.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 | <center><img src="../../../img/aws_assume/aws_assume_10.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 
-> "Action": [
-> &nbsp;&nbsp;"sts:AssumeRole",
-> &nbsp;&nbsp;"sts:TagSession"
-> ],
+```json
+"Action": [
+    "sts:AssumeRole",
+    "sts:TagSession"
+],
+```
 
 | Step4. ARN 확인 |
 |:---------------|
