@@ -120,7 +120,17 @@ aws에 접속하여 IAM 서비스로 이동합니다. <br />
 | <center><img src="../../../img/aws_assume/aws_assume_5.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 | <center><img src="../../../img/aws_assume/aws_assume_6.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 
-| Step3. ARN 확인 |
+
+| Step3. 롤 생성 후 신뢰 정책 편집 클릭 |
+|:---------------|
+| <center><img src="../../../img/aws_assume/aws_assume_9.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+| <center><img src="../../../img/aws_assume/aws_assume_10.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+>"Action": [
+>   "sts:AssumeRole",
+>   "sts:TagSession"
+>],
+
+| Step4. ARN 확인 |
 |:---------------|
 | <center><img src="../../../img/aws_assume/aws_assume_7.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 | <center><img src="../../../img/aws_assume/aws_assume_8.png" width="700" height="300" style="border: 1px solid black;"/></center> |
