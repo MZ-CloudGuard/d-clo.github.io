@@ -121,17 +121,19 @@ aws에 접속하여 IAM 서비스로 이동합니다. <br />
 | <center><img src="../../../img/aws_assume/aws_assume_6.png" width="700" height="300" style="border: 1px solid black;"/></center> |
 
 
-| Step3. 롤 생성 후 신뢰 정책 편집 클릭 |
-|:---------------|
-| <center><img src="../../../img/aws_assume/aws_assume_9.png" width="700" height="300" style="border: 1px solid black;"/></center> |
-| <center><img src="../../../img/aws_assume/aws_assume_10.png" width="700" height="300" style="border: 1px solid black;"/></center> |
-
 ```json
 "Action": [
     "sts:AssumeRole",
     "sts:TagSession"
 ]
 ```
+
+| Step3. 롤 생성 후 신뢰 정책 편집 클릭 |
+|:---------------|
+| <center><img src="../../../img/aws_assume/aws_assume_9.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+| 신뢰 정책에 다음 JSON이 포함되어 있는지 확인하세요:<br/><pre><br/>"Action": [<br/>    "sts:AssumeRole",<br/>    "sts:TagSession"<br/>]<br/></pre> |
+| <center><img src="../../../img/aws_assume/aws_assume_10.png" width="700" height="300" style="border: 1px solid black;"/></center> |
+
 
 | Step4. ARN 확인 |
 |:---------------|
