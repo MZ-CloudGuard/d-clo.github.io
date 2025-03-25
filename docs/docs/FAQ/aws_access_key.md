@@ -130,7 +130,7 @@ aws에 접속하여 IAM 서비스로 이동합니다. <br />
 "Action": [
     "sts:AssumeRole",
     "sts:TagSession"
-],
+]
 ```
 
 | Step4. ARN 확인 |
