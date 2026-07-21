@@ -1,1 +1,15 @@
-// custom setup code goes here
+// Override default Just the Docs variables to improve overall readability.
+$body-font-family: "Pretendard", "Noto Sans KR", "Apple SD Gothic Neo",
+  "Malgun Gothic", "Segoe UI", "Helvetica Neue", arial, sans-serif;
+$root-font-size: 17px;
+$body-line-height: 1.65;
+$content-line-height: 1.75;
+$body-heading-line-height: 1.3;
+$body-background-color: #f9fafc;
+$body-text-color: #2d2a33;
+$body-heading-color: #1a1d29;
+$link-color: #3057d5;
+$nav-child-link-color: #3f3d46;
+$sidebar-color: #f4f6fb;
+$code-background-color: #f5f7fb;
+$content-width: 46rem;
